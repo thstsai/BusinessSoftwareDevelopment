@@ -1,0 +1,87 @@
+﻿body {
+  font-family: "微軟正黑體";
+  font-size: 100%;
+}
+
+header img {
+  padding: 0 .3em;
+  width: 4em;
+  height: 3em;
+}
+
+nav {
+  position: relative;
+  z-index: 1000;
+}
+
+.container {
+  padding: 0;
+  background-color: pink;
+}
+
+.well {
+  margin: 0;
+  border: 0;
+}
+
+header.well {
+  color: green;
+  background-color: gold;
+  text-shadow: .2em .2em silver;
+}
+
+footer.well {
+  background-color: gold;
+}
+
+.navbar {
+  margin: 0;
+  border: 0;
+  font-size: 2em;
+  background-color: purple;
+  opacity: 0.9;
+}
+
+  .navbar ul li a {
+    color: #d5d5d5;
+  }
+
+    .navbar ul li a:hover {
+      color: gold;
+      text-decoration: none;
+    }
+
+.dropdown-menu li a {
+  font-size: 1.3em !important;
+  color: black !important;
+  opacity: 0.9 !important;
+}
+
+  .dropdown-menu li a:hover {
+    color: gold !important;
+    background-color: black !important;
+    text-decoration: none !important;
+  }
+
+.tab-content {
+  padding: 1em;
+  background-color: pink;
+}
+
+section div.tab-content {
+  background-color: lightyellow;
+  border: 1px solid silver;
+}
+
+.panel-title {
+  font-size: 2em;
+}
+
+  .panel-title a:hover {
+    color: gold !important;
+    text-decoration: none !important;
+  }
+
+.panel-body {
+  font-size: 2em;
+}
